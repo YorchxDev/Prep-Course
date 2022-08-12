@@ -1,0 +1,80 @@
+
+Respuestas a la actividad n1:
+
+* Variables:
+
+Las variables se usan para guardar informacion o datos que puedan ser utilizados despues. Pueden almacenar cualquier tipo de dato ("Strings" o cadenas de texto, numero, booleans, null, undefined, etc). Existen tres formas de declarar una variable:
+
+    var : Era la forma de declarar una variable hasta ES5, tiene un scope global lo que puede causar problemas en varias situaciones, es bueno conocer como funciona por que mucho codigo ya esta escrito con var.
+
+    let : similar a var, sirve para almacenar valores que pueden ser cambiados. Se incluyo en ES6, tiene un scope mas local que var, por lo que no sera modificada o utilizada por error.
+
+    const : Se utiliza para guardar un valor que no queremos que sea modificable, son bastante usados asi que es importante saber como funcionan.
+
+Se le puede asignar valor a una variable con el simbolo igual a (=).
+
+Ej: 
+
+var diaDeHoy = "12/08/2022";
+
+let numero = 3197894561;
+
+const nombre = 'Yorch';
+
+
+* Strings:
+
+ Es un tipo de dato, los "Strings" o cadenas de texto, se identifican por estar entre comillas dobles o simples ( " o ' ).
+ Se puede operar con strings de varias formas. Añadir texto, quitar texto, buscar una palabra o numero en una base de datos, son algnos de los usos que se les da a los strings.
+
+
+* Funciones (argumentos, `return`):
+ 
+ Es como un conjunto de instrucciones que se dan para cumplir una tarea, calcular un valor, etc. Que toman un valor que le estemos pasando como "argumento", lo pasan por las diferentes operaciones o instrucciones que le diste, y te devuelve un resultado.
+
+ Los argumentos o parametros son como variables que se crean y almacenan de forma interna en una funcion, se usan para pasarle valores a las funciones y que de esa forma sean mas dinamicos y reutilizables.
+
+ return se utiliza para devolver y poder extraer un resultado de una funcion.  
+
+ Hay tres formas de crear una funcion:
+
+ 1) Declaracion de funcion: 
+ 
+ Se utiliza la palabra reservada function. Las expresiones declaradas tiene una forma similar a esta:
+
+ function nombreFuncion (argumentos) {
+    // instrucciones
+ }
+
+ 2) Expresion de funcion:
+
+ Puedes expresar una funcion creando una variable y le das un valor que contenga la funcion que quieres crear. 
+
+ Tiene la siguiente forma:
+
+ const funcionExpresada = function(argumentos) {
+    // instrucciones
+ }
+ 
+ La diferencia entre estas dos es que puedes mandar a llamar una funcion declarada antes de ser creada y aun asi va a ejetutarse de forma correcta, con una funcion expresada obtendrias un error, esto pasa por la forma en la que JS lee y ejecuta el codigo, algo conocido como hoisting. 
+
+ 3) Arrow function o funcion flecha:
+
+ Es una forma mas corta de definir una funcion, fue introducida en ES6 y esta ganando popularidad y soporte en varias librerias. La forma que tiene una arrow function es la siguiente:
+
+ const arrowFunction = (argumentos) => {
+    // instrucciones
+ }
+
+ Como ves la palabra funcion es sustituida, se deja el parentesis pero despues se agrega un => (de ahi el nombre de flecha), y luego se abren llaves.
+
+
+* Declaraciones `if`:
+
+if es lo que se conoce en programacion como una "estructura de control", lo que hace es que verifica si una condicion dada se cumple o no y de ser asi hacer algo, se utiliza para correr instrucciones dadas si se da un caso o condicion en particular.
+
+
+
+* Valores booleanos (`true`, `false`):
+ 
+ Son un tipo de dato en JS, son solo dos valores, y hacen referencia a los valores de verdad "verdadero" y "falso".
