@@ -1,0 +1,58 @@
+
+* For:
+
+For es un tipo de "loop" o ciclo, que se caracateriza por ejecutarse una y otra vez, cada vez manejando un valor diferente, es util cuando quieres ejecutar un codigo varias veces, normalmente cuando trabajas con arreglos, pero no se limita a estos.
+
+Un for loop tiene la siguiente forma:
+
+for (expresion 1; expresion 2; expresion 3) {
+  // Codigo a ejecutar
+}
+
+La expresion 1 se ejecuta una vez, antes de que se ejecute el codigo ente las {}, se toma como una condicion inicial. "Donde quieres que empiece el contador", por ejemplo.
+
+La expresion 2 define la condicion para la ejecucion del codigo, "Mientras i sea menor que la longitud del arreglo", por ejemplo.
+
+La expresion 3 se ejecuta cada vez que se ejecuta el codigo, y normalmente se usa para indicar como va a cambiar la condicion iniciar dada. "Cada vez que se ejecute, que el contador aumente en 1", por ejemplo.
+
+
+*&&:
+
+Es un operador logico en JS, funciona como el operador logico "AND" y se utiliza para verificar la logica entre dos variables o valores.
+&& arroja solo dos valores, true o false, dependiendo de las condiciones que les estes pasando, pero para simplificar, && arrojara true cuando ambas condiciones sean TRUE, si una o mas son FALSE, && arrojara FALSE.
+
+Ej:
+
+let x = 15;
+let y = 45;
+
+x < 10 && y < 40; // Arroja FALSE
+x > 10 && y > 40; // Arroja TRUE
+
+
+*||:
+
+Es otro operador logico, funciona como el "OR" logico, verifica que al menos una de las condiciones dadas sea TRUE y si lo es, arroja como resultado TRUE, solamente si ambas condiciones dan FALSE la comprobacion dara FALSE.
+
+
+Ej:
+
+let x = 15;
+let y = 45;
+
+x > 10 || y < 40; // Arroja TRUE
+x > 10 || y > 40; // Arroja TRUE
+x < 10 || y > 40; // Arroja FALSE
+
+
+*!:
+
+Funciona como la negacion en logica, lo que hace es que alterna cualquier valor que le entregues, si le pasas una condicion que sea TRUE, arrojara FALSE, y viceversa.
+
+Ej:
+
+let yes = true;
+let no = false;
+
+!yes; // cambia a FALSE
+!no; // cambia a TRUE
