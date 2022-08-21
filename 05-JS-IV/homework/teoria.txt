@@ -1,0 +1,28 @@
+
+*Objeto en Javascript:
+
+Los objetos en JavaScript, como en tantos otros lenguajes de programación, se pueden comparar con objetos de la vida real. El concepto de Objetos en JavaScript se puede entender con objetos tangibles de la vida real.
+
+En JavaScript, un objeto es un entidad independiente con propiedades y tipos. Compáralo con una taza, por ejemplo. Una taza es un objeto con propiedades. Una taza tiene un color, un diseño, un peso, un material del que está hecha, etc. Del mismo modo, los objetos de JavaScript pueden tener propiedades que definan sus características.
+
+
+*Propiedades:
+
+Un objeto de JavaScript tiene propiedades asociadas a él. Una propiedad de un objeto se puede explicar como una variable adjunta al objeto. Las propiedades de un objeto básicamente son lo mismo que las variables comunes de JavaScript, excepto por el nexo con el objeto. Las propiedades de un objeto definen las características del objeto.
+
+
+*Metodos:
+
+Un metodo es una función la cual es propiedad de un Objeto. Existen dos tipos de métodos: Métodos de Instancia los cuales son tareas integradas realizadas por la instacia de un objeto, y los Métodos Estáticos que son tareas que pueden ser llamadas directamente en el constructor de un objeto.
+
+
+*Bucle `for…in`:
+
+En Javascript hay una construcción especial del bucle for de toda la vida, que te permite recorrer todas las propiedades de un objeto. Es parecido a lo que en otros lenguajes tenemos en el bucle foreach (Javascript también tiene el forEach pero es solo para arrays y no es un bucle sino un método de arrays, que sirve para iterar, pero no es una estructura de control como tal).
+
+
+*Notación de puntos vs notación de corchetes:
+
+La notación con corchetes es otra manera de acceder a una propiedad de un objeto. Para usar esta notación, escribe el nombre del objeto seguido de corchetes []. Dentro de los corchetes, escribe el nombre de la propiedad como una string.
+
+La notación con corchetes, a diferencia de la notación con punto, puede usarse con variables. Si usas una variable con notación con corchetes, la variable debe hacer referencia a una string.
