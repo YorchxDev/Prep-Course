@@ -124,13 +124,6 @@ function sortArray(arr) {
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
 
-  let resultado = [];
-
-  arr.forEach( palabra => {
-    resultado = arr.sort(palabra.length);
-  })
-
-  return resultado
 
 
 }
