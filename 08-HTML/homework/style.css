@@ -1,0 +1,102 @@
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+html {
+    font-size: 62.5%;
+    
+}
+
+body {
+    background-image: url(https://img.freepik.com/foto-gratis/tabla-madera-sobremesa-vacia-fondo-borroso_1253-1584.jpg?w=740&t=st=1661394250~exp=1661394850~hmac=936873230cc18d4a99029153d4163821f32086ec046d2785604cf573326dc599);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+}
+
+h1, h2, h3, h4, p, a {
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.divClass {
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.divClass:nth-child(2) {
+    border-radius: 0 0 10px 10px;
+}
+
+
+.divClass h1{
+    color: firebrick;
+    font-size: 6rem;
+    border-bottom: 1rem solid firebrick;
+    display: block;
+}
+
+.divClass h3 {
+    font-size: 30px;
+}
+
+.divClass h4 {
+    font-size: 20px;
+    padding-bottom: 5rem;
+    margin: 0;
+}
+
+.divClass a {
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    font-size: 2rem;
+    margin-bottom: -15rem;
+    padding-bottom: 10rem;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    display: block;
+    
+    margin-top: 0;
+}
+
+#thirdDiv {
+    width: 500px; 
+    height: 600px; 
+    background-color: firebrick; 
+    padding: 50px; 
+    border: 15px solid black;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#thirdDiv ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#thirdDiv li {
+    margin-bottom: 2rem;
+}
+
+#thirdDiv img {
+    border: .5rem solid black;
+}
+
+#thirdDiv img:hover {
+    transition: .3s ease-in-out;
+    transform: scale(1.2);
+    border: 1rem solid black;
+}
+
+img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}

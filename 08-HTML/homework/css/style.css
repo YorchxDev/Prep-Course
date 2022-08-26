@@ -1,0 +1,303 @@
+
+/* Variables */
+
+:root {
+
+    --fuentePrincipal: 'Roboto', sans-serif;
+    --fuenteSecundaria: 'Anton', sans-serif;
+
+    --rojo: #b22222;
+    --blanco: #ffffff;
+    --negro: #000000;
+    --grisOscuro: #383838;
+    --grisMedio: #9e9e9e;
+    --grisClaro: #e6e6e6;
+
+}
+
+/* Globales */
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--fuentePrincipal);
+}
+
+.contenedor {
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Tipografias */
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* General */
+
+.cv-contenido {
+    background-color: var(--grisOscuro);
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+
+/* Seccion Izquierda */
+
+.izquierda {
+    background-color: var(--rojo);
+    background-size: 200%;
+}
+
+.bio {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-img {
+    background-image: url(/08-HTML/homework/img/yorch-dev-penege-small.png);
+    background-color: var(--grisMedio);
+    background-size: cover;
+    background-position-y: -5rem;
+    border: .5rem solid var(--blanco);
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+}
+
+.bio-contenido {
+    padding: 2rem;
+    color: var(--grisClaro);
+}
+
+.bio-nombre {
+    color: var(--grisClaro);
+    position: relative;
+    z-index: 1;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.bio-texto {
+    margin-bottom: 3rem;
+}
+
+.info-contacto {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.info-contacto a {
+    text-decoration: none;
+    color: var(--grisClaro);
+}
+
+/* Seccion Derecha */
+
+.derecha {
+    padding: 5rem;
+}
+
+.exp-laboral {
+    color: var(--blanco);
+}
+
+.exp-heading {
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.exp-titulo {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.exp-duracion {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.skills {
+    margin-bottom: 3rem;
+}
+
+.skills-titulo {
+    font-size: 3rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.barras-progreso {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.barra-progreso {
+    display: flex;
+    flex-direction: column;
+}
+
+.progreso-titulo {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--blanco);
+}
+
+.progreso-contenido {
+    display: flex;
+    align-items: center;
+}
+
+.progreso-texto {
+    color: var(--blanco);
+    margin-top: 1rem;
+}
+
+.progreso {
+    width: 100%;
+    height: .5rem;
+    background-color: var(--grisMedio);
+    margin-left: 1rem;
+    position: relative;
+}
+
+.progreso span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: var(--rojo);
+}
+
+.html {
+    width: 80%;
+}
+
+.css {
+    width: 80%; 
+}
+
+.javascript {
+    width: 70%; 
+}
+
+.node {
+    width: 50%; 
+}
+
+.react {
+    width: 50%; 
+}
+
+.php {
+    width: 50%; 
+}
+
+.extras {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: var(--blanco);
+    gap: 2rem;
+}
+
+.edu-heading {
+    margin-bottom: 2rem;
+}
+
+.edu-titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.edu-cursos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.hobbie {
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--negro);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hobbie:nth-child(1) {
+    background-image: url(http://3.bp.blogspot.com/-x5itbo6aJ3E/TyxefUfTfFI/AAAAAAAAAI8/RpiKaoG_xes/s1600/etapas-historia-dibujo.png);
+}
+
+.hobbie:nth-child(2) {
+    background-image: url(https://d500.epimg.net/cincodias/imagenes/2022/04/08/fortunas/1649416941_515926_1649417065_noticia_normal.jpg);
+}
+
+.hobbie:nth-child(3) {
+    background-image: url(https://i.pinimg.com/originals/35/a2/d6/35a2d6b757de7fa085fe4cf97051c972.jpg);
+}
+
+.hobbie:nth-child(4) {
+    background-image: url(https://w0.peakpx.com/wallpaper/746/806/HD-wallpaper-memes-collage-no-2-cat-awesome-pandabomb-dog-meme.jpg);
+}
+

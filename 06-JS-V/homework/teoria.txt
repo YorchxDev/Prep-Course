@@ -1,0 +1,20 @@
+
+
+*Prototype:
+
+JavaScript es a menudo descrito como un lenguaje basado en prototipos - para proporcionar mecanismos de herencia, los objetos pueden tener un objeto prototipo, el cual actúa como un objeto plantilla que hereda métodos y propiedades.
+
+Un objeto prototipo del objeto puede tener a su vez otro objeto prototipo, el cual hereda métodos y propiedades, y así sucesivamente. Esto es conocido con frecuencia como la cadena de prototipos, y explica por qué objetos diferentes pueden tener disponibles propiedades y métodos definidos en otros objetos.
+
+Bien, para ser exactos, los métodos y propiedades son definidos en la propiedad prototype, que reside en la función constructora del objeto, no en la instancia misma del objeto.
+
+En JavaScript, se establece un enlace entre la instancia del objeto y su prototipo (su propiedad __proto__, la cual es derivada de la propiedad prototype sobre el constructor), y las propiedades y metodos son encontrados recorriendo la cadena de prototipos.
+
+
+*Constructor
+
+Retorna una referencia a la función del Object que creó el objeto de la instancia. Note que el valor de esta propiedad es una referencia a la función misma, no a un string conteniendo el nombre de la función. El valor es sólo de lectura para valores primitivos tales como 1, true y 'test'.
+
+Descripción:
+
+Todos los objetos tienen una propiedad constructor. Los objetos creados sin explicitar el uso de una función (como son los objetos y las cadenas literales) tendrán una propiedad de constructor que apunta al tipo de constructor del Objeto Fundamento para ese objeto.

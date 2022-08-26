@@ -65,7 +65,7 @@ Usando lo que aprendiste de HTML vas a crear un nuevo documento dentro de la car
 
 * Titulo
 * Descripción Personal
-* Educación
+* Educación 
 * Experiencias Laborales
 * Skills
 * Tu foto
